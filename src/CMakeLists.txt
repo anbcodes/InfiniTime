@@ -412,6 +412,7 @@ list(APPEND SOURCE_FILES
         displayapp/screens/Error.cpp
         displayapp/screens/Alarm.cpp
         displayapp/screens/Styles.cpp
+        displayapp/screens/Keyboard.cpp
         displayapp/Colors.cpp
 
         ## Settings
@@ -610,6 +611,7 @@ set(INCLUDE_FILES
         displayapp/screens/FirmwareUpdate.h
         displayapp/screens/FirmwareValidation.h
         displayapp/screens/ApplicationList.h
+        displayapp/screens/Keyboard.h
         displayapp/Apps.h
         displayapp/screens/Notifications.h
         displayapp/screens/HeartRate.h

@@ -40,6 +40,7 @@ namespace Pinetime {
       SettingShakeThreshold,
       SettingBluetooth,
       Calculator,
+      Keyboard,
       Error
     };
   }

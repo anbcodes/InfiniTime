@@ -13,6 +13,7 @@
 #include "displayapp/screens/ApplicationList.h"
 #include "displayapp/screens/Brightness.h"
 #include "displayapp/screens/Clock.h"
+#include "displayapp/screens/Keyboard.h"
 #include "displayapp/screens/FirmwareUpdate.h"
 #include "displayapp/screens/FirmwareValidation.h"
 #include "displayapp/screens/InfiniPaint.h"
@@ -460,6 +461,9 @@ void DisplayApp::LoadApp(Apps app, DisplayApp::FullRefreshDirections direction) 
       break;
     case Apps::Calculator:
       currentScreen = std::make_unique<Screens::Calculator>(this, motorController);
+      break;
+    case Apps::Keyboard:
+      currentScreen = std::make_unique<Screens::Keyboard>(this, motorController);
       break;
   }
   currentApp = app;
