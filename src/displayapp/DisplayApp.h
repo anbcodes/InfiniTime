@@ -6,6 +6,7 @@
 #include <memory>
 #include <systemtask/Messages.h>
 #include "displayapp/Apps.h"
+#include "displayapp/screens/Calculator.h"
 #include "displayapp/LittleVgl.h"
 #include "displayapp/TouchEvents.h"
 #include "components/brightness/BrightnessController.h"

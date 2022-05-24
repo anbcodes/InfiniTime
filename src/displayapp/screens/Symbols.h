@@ -16,6 +16,7 @@ namespace Pinetime {
         static constexpr const char* plug = "\xEF\x87\xA6";
         static constexpr const char* shoe = "\xEF\x95\x8B";
         static constexpr const char* clock = "\xEF\x80\x97";
+        static constexpr const char* calculator = "\xEF\x87\xAC";
         static constexpr const char* info = "\xEF\x84\xA9";
         static constexpr const char* list = "\xEF\x80\xBA";
         static constexpr const char* sun = "\xEF\x86\x85";

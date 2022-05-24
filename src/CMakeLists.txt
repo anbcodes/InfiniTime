@@ -394,6 +394,7 @@ list(APPEND SOURCE_FILES
         displayapp/screens/Music.cpp
         displayapp/screens/Weather.cpp
         displayapp/screens/Navigation.cpp
+        displayapp/screens/Calculator.cpp
         displayapp/screens/Metronome.cpp
         displayapp/screens/Motion.cpp
         displayapp/screens/FirmwareValidation.cpp
@@ -615,6 +616,7 @@ set(INCLUDE_FILES
         displayapp/screens/Metronome.h
         displayapp/screens/Motion.h
         displayapp/screens/Timer.h
+        displayapp/screens/Calculator.h
         displayapp/screens/Alarm.h
         displayapp/Colors.h
         drivers/St7789.h
